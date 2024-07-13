@@ -1,0 +1,18 @@
+import java.util.Scanner;
+
+public class Lectura {
+    public static void main(String[] args) {
+        Scanner teclado = new Scanner(System.in);
+
+        System.out.println("escribe el titulo de tu pelicula favorita");
+        String pelicula = teclado.nextLine();
+        System.out.println("introduce la fecha de lazamiento");
+        int fechaDeLanzamiento = teclado.nextInt();
+        System.out.println("que nota le das a esta pelicula");
+        double nota=teclado.nextDouble();
+
+        System.out.println(pelicula);
+        System.out.println(fechaDeLanzamiento);
+        System.out.println(nota);
+    }
+}
