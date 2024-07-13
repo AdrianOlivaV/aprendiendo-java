@@ -16,5 +16,9 @@ public class Loops {
         }
 
         System.out.println("la nota media de matrix es "+mediaEvaluacion/3);
+
+        for (int contador = 1; contador <=10 ; contador++) {
+            System.out.println(contador);
+        }
     }
 }
