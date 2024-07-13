@@ -21,5 +21,15 @@ public class evaluiaciones {
 
         }
         System.out.println("la nota media de matrix es "+mediaEvaluacion/contadorDeEvaluaciones);
+
+
+        int contador = 1;
+
+        while(contador <= 10) {
+            System.out.println(contador);
+            contador++;
+        }
+
+
     }
 }
